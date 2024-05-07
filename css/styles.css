@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.header, .contenido-1 {
+    background-color: #1F2937;
+    color:#F9FAF8;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.header {
+    display: flex;
+    padding: 15px 400px;
+    align-items: center;
+}
+
+a {
+    color:#F9FAF8;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.izq-1 p {
+    padding: 15px 0;
+}
+.header h3 {
+    margin-right: auto;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+.contenido-1 {
+    display: flex;
+    flex: 1;
+    padding: 70px 400px;
+}
+.izq-1 button {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    font-size: 20px;
+    padding: 6px 30px;
+    border-radius: 10px;
+    border-color:#3882F6;
+    margin-top: 5px;
+}
+.izq-1 , .der-1 {
+    flex: 1;
+    flex-wrap: wrap;
+}
+.der-1 {
+    display: flex;
+    justify-content: center;
+}
+.der-1 img {
+    background-color: gray;
+    border-radius: 50%;
+}
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 200px;
+}
+.imagen {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+.contenido-2 {
+    text-align: center;
+    flex: 1;
+    padding: 0 400px 100px;
+}
+.contenido-2 h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    padding: 50px 0;
+}
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+.subtitulo {
+    font-weight: bolder;
+}
+.contenido-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: #E5E7EB;
+    padding: 100px 400px;
+}
+
+.contenido-3 p {
+    margin-left: auto;
+}
+.texto {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: justify;
+}
+.mensaje {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
+    color:#F9FAF8;
+    background-color: #3882F6;
+    padding: 20px 40px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.mensaje div button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-right: 40px;
+    border-color: white;
+}
+.contenido-4 {
+    flex: 1;
+    padding: 50px 400px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color:#F9FAF8;
+    padding: 25px;
+}
